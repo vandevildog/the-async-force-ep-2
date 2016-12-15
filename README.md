@@ -35,7 +35,7 @@ An **async** Exercise using **client side** XHR accessing the swapi API at https
 
 1. Display any xhr errors in the dom, so the user can see. For example, if a user inputs `99999` as an id, or `potato`. Display the error on the page.
 
-Bonus: The interface is not very user friendly. What you have so far can be considered a very rough MVP just to see things are working. People outside of the software engineering industry don't know what a URL fragment is and wouldn't know how to use the app.  Redesign the interface so that a non engineer can use it! An example would be to give them a list of categories to choose from instead of manually typing it in and another input field for the resource number.
+**Bonus:** The interface is not very user friendly. What you have so far can be considered a very rough MVP just to see things are working. People outside of the software engineering industry don't know what a URL fragment is and wouldn't know how to use the app.  Redesign the interface so that a non engineer can use it! An example would be to give them a list of categories to choose from instead of manually typing it in and another input field for the resource number.
 
 Note: Go to https://swapi.co to find out what kind of data can be requested!
 
