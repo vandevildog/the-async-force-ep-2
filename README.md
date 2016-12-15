@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 # The-Async-Force-Ep-2
-=======
-# The-Async-Force-Ep-1
->>>>>>> bd33690988173700cb67b73c232a488e4cf28e87
 An **async** Exercise using **client side** XHR accessing the swapi API at https://swapi.co
-
-
 
 ## Excercise
 *Remember to commit after each step.*
@@ -18,6 +12,27 @@ An **async** Exercise using **client side** XHR accessing the swapi API at https
   Information that comes back from the API should be displayed in
   the body of the html.  Additional html elements should be created to properly parse,
   display and format the data in a presentable way.
+
+  1. If a `person` is requested, display the following information:
+    - Name
+    - Gender
+    - Species
+    - Homeworld
+    - Films in
+  2. If a `planet` is requested, display the following information:
+    - Name
+    - Terrain
+    - Population
+    - Residents
+    - Film in
+  3. If a `starship` is requested, display the following information:
+    - Name
+    - Manufacturer
+    - Starship Class
+    - Films in
+
+
+
 1. Display any xhr errors in the dom, so the user can see. For example, if a user inputs `99999` as an id, or `potato`. Display the error on the page.
 
 Bonus: The interface is not very user friendly. What you have so far can be considered a very rough MVP just to see things are working. People outside of the software engineering industry don't know what a URL fragment is and wouldn't know how to use the app.  Redesign the interface so that a non engineer can use it! An example would be to give them a list of categories to choose from instead of manually typing it in and another input field for the resource number.
