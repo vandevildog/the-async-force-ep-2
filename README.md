@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # The-Async-Force-Ep-2
+=======
+# The-Async-Force-Ep-1
+>>>>>>> bd33690988173700cb67b73c232a488e4cf28e87
 An **async** Exercise using **client side** XHR accessing the swapi API at https://swapi.co
 
 
