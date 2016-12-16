@@ -33,6 +33,9 @@ An **async** Exercise using **client side** XHR accessing the swapi API at https
 
 Note: Go to https://swapi.co to preview the data that you will be requesting
 
+### Demo
+
+![demo](https://cloud.githubusercontent.com/assets/132562/21257053/d42ed6ac-c319-11e6-84e0-277f56342f20.gif)
 
 
 ## Hints
