@@ -14,19 +14,19 @@ An **async** Exercise using **client side** XHR accessing the swapi API at https
   display and format the data in a presentable way.
 
   1. If a `person` is requested, display the following information:
-    - Name
-    - Gender
-    - Species (the name)
+    - Name, in an `<h2>` tag
+    - Gender, in an `<p>` tag
+    - Species (only get the first species if there are multiple) (only display the name), in an `<p>` tag
   2. If a `planet` is requested, display the following information:
-    - Name
-    - Terrain
-    - Population
-    - a list of all Film names that this planet appeared in
+    - Name, in an `<h2>` tag
+    - Terrain, in an `<p>` tag
+    - Population, in an `<p>` tag
+    - a list of all Film names that this planet appeared in `<li>` tags wrapped in `<ul>`
   3. If a `starship` is requested, display the following information:
-    - Name
-    - Manufacturer
-    - Starship Class
-    - a list of all Film names that this starship appeared in
+    - Name, in an `<h2>` tag
+    - Manufacturer, in an `<p>` tag
+    - Starship Class, in an `<p>` tag
+    - a list of all Film names that this starship appeared in `<li>` tags wrapped in `<ul>`
 
 
 1. Display any xhr errors in the dom, so the user can see. For example, if a user inputs `99999` as an id, or `potato`. Display the error on the page.
