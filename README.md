@@ -17,20 +17,14 @@ An **async** Exercise using **client side** XHR accessing the swapi API at https
     - Name
     - Gender
     - Species
-    - Homeworld
-    - Films in
   2. If a `planet` is requested, display the following information:
     - Name
     - Terrain
     - Population
-    - Residents
-    - Film in
   3. If a `starship` is requested, display the following information:
     - Name
     - Manufacturer
     - Starship Class
-    - Films in
-
 
 
 1. Display any xhr errors in the dom, so the user can see. For example, if a user inputs `99999` as an id, or `potato`. Display the error on the page.
