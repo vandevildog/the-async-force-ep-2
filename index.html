@@ -7,8 +7,16 @@
 </head>
 <body>
   <h1>The Async Force Ep 2</h1>
-  <input id="url_fragment" type="text" placeholder="URL Fragment"/>
-  <button id="button">Hit the Swapi API!</button>
-  <script type="text/javascript" src="js/app.js"></script>
+  <select name="resourceType" id="resourceType">
+    <option value="people">Person</option>
+    <option value="planets">Planet</option>
+    <option value="starships">Starship</option>
+  </select>
+  <input id="resourceId" type="text" placeholder=":id"/>
+  <button id="button">Request Resource</button>
+
+  <div id="contentContainer"></div>
+
+
 </body>
 </html>
