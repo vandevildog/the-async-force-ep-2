@@ -6,7 +6,7 @@ An **async** Exercise using **client side** XHR accessing the swapi API at https
 
 1. Make a `/js` folder and create an `app.js` file in it.
 1. In the `index.html` file, load `app.js` via script tags.
-1. Use live-reload to serve up the files to your browser.
+1. Use live-server to serve up the files to your browser.
 1. Construct your XHR requests in the `app.js` file by scraping the value from the input field.
 1. A request to the SWAPI api should be initiated when the button is clicked.
   Information that comes back from the API should be displayed in
